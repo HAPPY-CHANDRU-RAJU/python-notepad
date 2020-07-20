@@ -45,16 +45,16 @@ class Notepad:
         self.create_binding_keys()
         self.binding_functions_config()
         #icon
-        self.new_image = tkinter.PhotoImage(file="icons/new.png")
-        self.open_image = tkinter.PhotoImage(file="icons/open.png")
-        self.save_image = tkinter.PhotoImage(file="icons/save.png")
-        self.exit_image = tkinter.PhotoImage(file="icons/close.png")
-        self.undo_image = tkinter.PhotoImage(file="icons/undo.png")
-        self.cut_image = tkinter.PhotoImage(file="icons/cut.png")
-        self.copy_image = tkinter.PhotoImage(file="icons/copy.png")
-        self.paste_image = tkinter.PhotoImage(file="icons/paste.png")
-        self.select_all_image = tkinter.PhotoImage(file="icons/selectall.png")
-        self.info_image = tkinter.PhotoImage(file="icons/info.png")
+        self.new_image = tkinter.PhotoImage(file="new.png")
+        self.open_image = tkinter.PhotoImage(file="open.png")
+        self.save_image = tkinter.PhotoImage(file="save.png")
+        self.exit_image = tkinter.PhotoImage(file="close.png")
+        self.undo_image = tkinter.PhotoImage(file="undo.png")
+        self.cut_image = tkinter.PhotoImage(file="cut.png")
+        self.copy_image = tkinter.PhotoImage(file="copy.png")
+        self.paste_image = tkinter.PhotoImage(file="paste.png")
+        self.select_all_image = tkinter.PhotoImage(file="selectall.png")
+        self.info_image = tkinter.PhotoImage(file="info.png")
 
 
 
