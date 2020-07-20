@@ -124,7 +124,7 @@ class Notepad:
                                        menu=self.__thisEditMenu)
 
         # To create a feature of description of the notepad
-        self.__thisHelpMenu.add_command(label="    About Notepad", underline = 0, image = self.info_image,
+        self.__thisHelpMenu.add_command(label=" About Notepad", underline = 0, image = self.info_image,
                      compound = "left",command=self.__showAbout)
         self.__thisMenuBar.add_cascade(label="Help",
                                        menu=self.__thisHelpMenu)
@@ -144,7 +144,7 @@ class Notepad:
     # exit()
 
     def __showAbout(self):
-        showinfo("CtextPad", "Chandru V")
+        showinfo("CtextPad", "Designed by : Chandru V")
 
     def __openFile(self, event=None):
 
